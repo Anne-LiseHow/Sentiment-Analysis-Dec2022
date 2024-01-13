@@ -4,7 +4,9 @@ This repository contains the implementation of various machine learning techniqu
 ## Exploratory Data Analysis
 Before analysis, any missing or duplicates were removed from the data. The proportion of positive, neutral and negative tweets are approximately equal for the three data sets. Negative tweets make up the largest majority with at least 60%, while neutral tweets are the smallest group with at most 16.2%. This suggests that we might encounter models that are biased in predicting the negative class due to the latter being the majority.
 
-TO DO: Include pictures of graphs
+Train|Test|Validation
+-----|----|----------
+![Train](Images/train-piechart.png)|![Test](Images/test-piechart.png)|![Dev](Images/dev-piechart.png)
 
 ## Data Preprocessing for Sentiment Analysis
 The following pre-processing steps were conducted:
